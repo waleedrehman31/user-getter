@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Users</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-center h-16">
+            <div class="flex items-center">
+              <div class="flex-shrink-0">
+                <h1
+                  class="
+                    text-gray-400
+                    px-3
+                    py-2
+                    justify-center
+                    rounded-md
+                    text-3xl
+                    font-bold
+                    tracking-widest
+                  "
+                >
+                  Random Users
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="
+          p-10
+          grid grid-cols-1
+          sm:grid-cols-1
+          md:grid-cols-3
+          lg:grid-cols-3
+          xl:grid-cols-3
+          gap-2
+        "
+        id="showUsers"
+      ></div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
