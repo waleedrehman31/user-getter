@@ -20,7 +20,19 @@ const getRandomUsers = async () => {
 
         <p class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 text-base"> <strong>Last Name: </strong> ${user.last_name}</p>
 
+        <p class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 text-base"> <strong>Last Name: </strong> ${user.date_of_birth}</p>
+
+        <p class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 text-base"> <strong>Gender: </strong> ${user.gender}</p>
+
         <p class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 text-base"> <strong>Email: </strong> ${user.email}</p>
+
+        <p class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 text-base"> <strong>Password: </strong> ${user.pasword}</p>
+
+        <p class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 text-base"> <strong>social_insurance_number: </strong> ${user.social_insurance_number}</p>
+
+        <p class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 text-base"> <strong>phone_number: </strong> ${user.phone_number}</p>
+
+        <p class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 text-base"> <strong>Credit Card: </strong> ${user.credit_card.cc_number}</p>
     </div>`;
   });
 };
