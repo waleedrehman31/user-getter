@@ -111,6 +111,22 @@ const getRandomUsers = async () => {
           mr-2 
           mb-2 
           text-base"> 
+          <i class="fas fa-user"></i>
+          <strong>Username: </strong> 
+          ${user.username}
+        </p>
+
+        <p class="
+          bg-gray-300
+          rounded-full 
+          px-3 
+          py-1 
+          text-sm 
+          font-semibold 
+          text-white-500
+          mr-2 
+          mb-2 
+          text-base"> 
           <i class="fas fa-key"></i>
           <strong>Password: </strong> 
           ${user.pasword}
@@ -128,7 +144,7 @@ const getRandomUsers = async () => {
           mb-2 
           text-base">
           <i class="fas fa-id-card-alt"></i>
-          <strong>social_insurance_number: </strong> 
+          <strong>Social Insurance Number: </strong> 
           ${user.social_insurance_number}
         </p>
 
@@ -144,7 +160,7 @@ const getRandomUsers = async () => {
           mb-2 
           text-base">
           <i class="fas fa-phone"></i>
-          <strong>phone_number: </strong> 
+          <strong>Phone Numeber: </strong> 
           ${user.phone_number}
         </p>
 
