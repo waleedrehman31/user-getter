@@ -9,33 +9,44 @@
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <nav class="bg-gray-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="flex items-center justify-center h-16">
-            <div class="flex items-center">
-              <div class="flex-shrink-0">
-                <h1
-                  class="
-                    text-gray-400
-                    px-3
-                    py-2
-                    justify-center
-                    rounded-md
-                    text-3xl
-                    font-bold
-                    tracking-widest
-                  "
-                >
-                  Random Users
-                </h1>
-              </div>
+    <nav class="bg-gray-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-center h-16">
+          <div class="flex items-center">
+            <div class="flex-shrink-0">
+              <h1
+                class="
+                  text-gray-400
+                  px-3
+                  py-2
+                  justify-center
+                  rounded-md
+                  text-3xl
+                  font-bold
+                  tracking-widest
+                "
+              >
+                Random Users
+              </h1>
             </div>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <main class="bg-gray-800">
+      <div class="flex items-center justify-center h-screen" id="loading">
+        <div class="lds-dual-ring"></div>
+      </div>
 
       <div
         class="
